@@ -2,6 +2,8 @@
 
 <html lang="es">
 
+    <link rel="stylesheet" href="./css/main.css">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,13 +12,19 @@
 
 <body>
     <header>
-        <nav>
+        <nav class="nav">
             <ul>
-                <li> <a href="index.html">Inicio</a></li>
-                <li> <a href="curso.html">Curso</a></li>
-                <li active> <a href="ejercicios.html">Ejercicios</a></li>
-                <li> <a href="acerca-de.html">Acerca de</a></li>
+                <li> <a class="nav-animacion" href="index.html">Inicio</a></li>
+                <li> <a class="nav-animacion" href="curso.html">Curso</a></li>
+                <li active> <a class="nav-animacion" href="ejercicios.html">Ejercicios</a></li>
+                <li> <a class="nav-animacion" href="acerca-de.html">Acerca de</a></li>
             </ul>
+
+            <div class="nav-buscar">
+                <label for="">Buscar</label>
+                <input type="text" placeholder="Campo de busquedad">
+                <a class="nav-buscar-animacion" href="#">Buscar</a>
+            </div>
         </nav>
 
         <img src="" width="" height="" />
