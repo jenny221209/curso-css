@@ -53,6 +53,6 @@
     background-color: crimson;
     width: 34px;
     height: 195px;
-    transform: rotate(35deg) skewY(35deg) translateY(50px) translateX(-60px) translateY(-100px) translateX(100px);
+    transform: rotate(35deg) skewY(35deg) translateY(60px) translateX(-60px) translateY(-100px) translateX(100px);
     
   }
