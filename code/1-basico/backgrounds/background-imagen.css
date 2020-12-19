@@ -1,0 +1,22 @@
+/* CSS Background Image - Imagen de fondo */
+ /* Background imagen aplica imagenes de fondo a los elementos */ 
+
+ body {
+    background-color: wheat;
+
+ }
+
+ .div-1 {
+        background-image: url("./img/img.jpg");
+        background-repeat: no-repeat;
+        height: 400px;
+        margin: 10px;
+        background-color: yellow;
+ }
+
+ .div-2 {
+     background-image: url("./img/img-2.jpg");
+     background-repeat: no-repeat;
+     height: 400px;
+     margin: 10px;
+ }

@@ -1,0 +1,21 @@
+/*CSS Backgrounds*/
+
+/* Background color es el color de fondo de cualquier elemento */
+
+body {
+    background-color: lightblue;
+  }
+
+.div-1 {
+    background-color: rgba(237, 176, 242, 0.5);
+    height: 100px;
+}
+
+.div-2  {
+    background-color: darkolivegreen;
+    height: 100px;
+}
+
+h2 {
+    background-color: darkorange;
+}

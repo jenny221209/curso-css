@@ -64,6 +64,43 @@ p {
 }
 
 
+/*CSS Background Color*/
+
+h1 {
+    background-color: aquamarine;
+    background-color: rgb(200, 200, 40);
+    background-color: #47fff6;
+}
+
+div {
+    background-color: azure;
+}
+
+/*CSS Text Color*/
+
+h2 {
+    color: rosybrown;
+    color:rgb(200, 200, 40);
+    color: #47fff6;
+    color: hsl(250, 100%, 70%)
+    
+}
+
+div {
+    color: indigo
+}
+
+
+/*CSS Border Color*/
+
+.border-h4 {
+    border: 1px solid cyan;
+}
+
+.div-border {
+    border: 2px dotted #ff6347
+}
+
 
 
 
