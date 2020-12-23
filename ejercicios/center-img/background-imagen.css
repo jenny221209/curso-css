@@ -7,16 +7,32 @@
  }
 
  .div-1 {
-        background-image: url("./img/img.jpg");
-        background-repeat: no-repeat;
         height: 400px;
         margin: 10px;
-        background-color: yellow;
+        justify-content: center;
+        display: flex;
+
+ }
+
+ .img-header {
+     height: 400px;
+    
+
+     
  }
 
  .div-2 {
-     background-image: url("./img/img-2.jpg");
-     background-repeat: no-repeat;
      height: 400px;
      margin: 10px;
  }
+
+ .title {
+     color: rgb(240, 53, 33);
+     text-align: center;
+ }
+
+ .subtitle {
+     color: #F0BD22;
+     text-align: center;
+ }
+

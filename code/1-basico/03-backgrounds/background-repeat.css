@@ -1,0 +1,85 @@
+/* CSS Background Repeat - Repetición de fondo */
+
+/*
+By default, the background-image property repeats an image both horizontally and vertically.
+
+
+De forma predeterminada, la propiedad background-image repite una imagen tanto horizontal como verticalmente
+*/
+
+.div-1 {
+   background-image: url("./img/img-4.jpg");
+   height: 250px;
+   margin: 20px;
+}
+
+.div-2 {
+    background-image: url("./img/img-4.jpg");
+    height: 250px;
+    margin: 20px;
+    background-repeat: inherit;
+ }
+
+ .div-3 {
+    background-image: url("./img/img-4.jpg");
+    height: 250px;
+    margin: 20px;
+    background-repeat: initial;
+ }
+
+ .div-4 {
+    background-image: url("./img/img-4.jpg");
+    height: 250px;
+    margin: 20px;
+    background-repeat: no-repeat;
+ }
+
+ .div-5 {
+    background-image: url("./img/img-4.jpg");
+    height: 250px;
+    margin: 20px;
+    background-repeat: repeat;
+ }
+
+ .div-6 {
+    background-image: url("./img/img-4.jpg");
+    height: 250px;
+    margin: 20px;
+    background-repeat: repeat-x;
+ }
+
+ .div-7 {
+    background-image: url("./img/img-4.jpg");
+    height: 250px;
+    margin: 20px;
+    background-repeat: repeat-y;
+ }
+
+ .div-8 {
+    background-image: url("./img/img-4.jpg");
+    height: 250px;
+    margin: 20px;
+    background-repeat: round;
+ }
+
+ .div-9 {
+    background-image: url("./img/img-4.jpg");
+    height: 250px;
+    margin: 20px;
+    background-repeat: space;
+ }
+
+ .div-10 {
+    background-image: url("./img/img-4.jpg");
+    height: 250px;
+    margin: 20px;
+    background-repeat: unset;
+ }
+
+ h2 {
+    color: fuchsia;
+    font-size: 16px;
+    font-weight: bold;
+
+ }
+
