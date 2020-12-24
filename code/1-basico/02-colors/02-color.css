@@ -16,20 +16,29 @@ p {
 /* Background color */
 .div-background-colors-01 {
     background-color:Tomato;
+    height: 200px;
+    margin: 10px;
 }
 
 .div-background-colors-02 {
     background-color: dodgerblue;
+    height: 200px;
+    margin: 10px;
 }
 
 
 /* Border colors */
 .div-border-colors-01 {
-    border: 2px orange;
+    border: 2px solid orange;
+    height: 200px;
+    margin: 10px;
+
 }
 
 .div-border-colors-02 {
-    border: 4px slateblue;
+    border: 4px solid slateblue;
+    height: 200px;
+    margin: 10px;
 }
 
 
@@ -43,6 +52,9 @@ p {
 }
 
 /* RGBA - RED GREEN BLUE ALPHA */
+
+/* ALFA = Transparencia El valor de la transparencia va desde 0 hasta 1 (0 Transparencia total y 1 sin transparencia )
+
 .div-color-rgb-alpha {
     background-color: rgba(255, 99, 71, 0.5);       /* RGB con Alpha - Trasparencia */
 }
@@ -59,6 +71,9 @@ p {
 }
 
 /* HSLA (Hue, Saturation, Lightness – Matiz, Saturación, Luminosidad, Alpha) */
+
+/* ALFA = Transparencia El valor de la transparencia va desde 0 hasta 1 (0 Transparencia total y 1 sin transparencia */
+
 .div-color-hsl-alpha {
     background-color: hsl(190, 50%, 40%, 0.5);
 }
@@ -72,9 +87,6 @@ h1 {
     background-color: #47fff6;
 }
 
-div {
-    background-color: azure;
-}
 
 /*CSS Text Color*/
 
