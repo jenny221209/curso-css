@@ -1,0 +1,66 @@
+/* Bloque - Componente menú */
+
+.menu {
+    background-color: cyan;
+    margin: 10px;
+    
+}
+
+.menu__ul {
+    
+}
+
+.menu__li {
+    display: inline-block;
+    margin: 10px;
+}
+
+.menu__a {
+    
+}
+
+
+/* Bloque - Componente header */
+
+.header {
+    background-color: darksalmon;
+    text-align: center;
+}
+
+.header__h2 {
+
+}
+
+
+/* Bloque - Componente Aside */
+
+.aside {
+    background-color: deepskyblue;
+    display: inline-block;
+    height: 800px;    
+    width: 30%;
+}
+
+/* Bloque - Componente Section */
+
+.section {
+    background-color: gold;
+    text-align: center;
+    display: inline-block;
+    width: 65%;
+    height: 800px;
+    
+}
+
+/* Bloque - Componente Footer */
+
+.footer {
+    background-color: lightblue;
+
+}
+
+.footer__h2 {
+    text-align: center;
+}
+
+
