@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* Nav*/
+.nav {
+  background-color: rgb(87, 74, 74);
+  padding: 15px;
+}
+
+.nav__li {
+  color: snow;
+  display: inline-block;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+/* header*/
+.header {
+  background-image: url("../img/fondo.jpg");
+}
+
+.header__nav {
+  text-align: right;
+}
+
+.header__li {
+  display: inline-block;
+  margin: 20px 10px 20px 1px;
+}
+
+.header__a {
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+  text-decoration: none;
+  margin: 5px;
+  padding: 5px;
+}
+
+.header__div {
+  text-align: center;
+}
+
+.header__img {
+  margin: auto;
+  display: flex;
+}
+
+.header__h5 {
+  color: white;
+  font-size: 20px;
+}
+
+.header__h4 {
+  color: white;
+  font-size: 40px;
+}
+
+.header__h2 {
+  color: white;
+  font-size: 60px;
+}
+
+/* section */
+
+.section {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.section__article {
+ 
+}
+
+.section__div-img {
+    width: 45%;
+    display: inline-block;
+}
+
+.section__img {
+ width: 450px;
+ margin-left: 45%;
+
+}
+
+.section__div-texto {
+    width: 45%;
+    display: inline-block;
+}
+
+.section__h4 {
+    color: dimgrey;
+    margin-bottom: 4px;
+}
+
+.section__h2-1 {
+    display: inline-block;
+    margin-right: 1px;
+}
+
+.section__h2-2 {
+    color: rgb(40, 132, 218);
+    display: inline-block;
+    margin-left: 2px;
+}
+
+.section__p {
+    color: dimgrey;
+    margin-top: 4px;
+}
