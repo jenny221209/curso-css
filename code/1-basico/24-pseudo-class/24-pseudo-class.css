@@ -1,0 +1,57 @@
+
+/* CSS Pseudo Class */
+
+/* 
+What are Pseudo-classes?
+A pseudo-class is used to define a special state of an element.
+
+For example, it can be used to:
+
+Style an element when a user mouses over it
+Style visited and unvisited links differently
+Style an element when it gets focus */
+
+
+/*
+Una Pseudo Class es usada para definir un estado esencial de un elemento
+
+Por ejemplo: 
+
+Hacer un style cuando el puntero del mouse pase sobre el elemento
+Hacer estilos cuando un links halla sido visitado y no visitado
+Hacer un style cuando el elemento tenga el foco
+
+*/
+
+/* PSEUDO CLASS: HOVER */
+/* La pseudo class hover afecta un elemento cuando el mouse esta sobre el */
+.button-guardar:hover {
+    background-color: mediumblue;
+    color: mintcream;
+    font-size: 18px;
+}
+
+/* PSEUDO CLASS: FOCUS */
+/* La pseudo class focus afecta el elemento cuando obtiene el foco */ 
+.btn-cancelar:focus {
+    background-color: red;
+}
+
+.btn-guardar:focus {
+    background-color: forestgreen;
+}
+
+
+
+/* PSEUDO CLASS: LINK */
+/* La pseudo class link afecta el efecto link de un elemento (Cuando no a sido visitado) */
+.a-link:link {
+    color: red;
+}
+
+
+/* PSEUDO CLASS: VISITED */
+/* La pseudo class visited afecta el efecto visited de un elemento (Cuando ya fue visitado) */
+.a-visited:visited {
+    color: seagreen;
+}
