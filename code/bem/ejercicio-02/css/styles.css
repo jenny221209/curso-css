@@ -28,17 +28,20 @@
       
   }
 
-  .button:hover {
-    background-color: forestgreen;
-    color: ghostwhite;
-  }
+  
 
-  .button {
+  .form__button {
       background-color: lightslategrey;
       border-radius: 5px;
       display: flex;
       margin: auto;
       padding: 7px 15px 7px 15px;
+      
+  }
+
+  .button:hover {
+    background-color: forestgreen;
+    color: ghostwhite;
   }
 
  
