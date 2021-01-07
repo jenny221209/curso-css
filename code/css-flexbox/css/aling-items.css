@@ -6,13 +6,29 @@
     padding: 100px;
 }
 
-/* Div */
-.div-ai-1 {
+/* Aling Items */
+/* Stretch */
+.contenedor-ai-1 {
     display: flex;
     align-items: stretch;
+    flex-flow: row wrap;
+    background-color: lightskyblue;
+    height: 300px;
 }
 
-.div-ai-2 {
+.div-ai-1 {
+    width: 100px;
+    height: 100px;
+    background-color: hotpink;
+    margin: 10px;
+}
+
+/* Baseline */
+.contenedor-ai-2 {
     display: flex;
     align-items: baseline;
+    flex-flow: row wrap;
+    background-color: mediumpurple;
+    height: 300px;
+   
 }
