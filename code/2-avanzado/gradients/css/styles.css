@@ -1,0 +1,38 @@
+/* Gradients - Degradado */
+/*
+Los Gradients aplican degradados a elementos
+Existen dos tipos de degradados Linear y Radial
+
+Linear
+background: linear-gradient(direction, color-stop1, color-stop2, ...);
+Direccion: La direccion y se aplica en unidades deg(grados)
+colores
+
+Radial
+background: radial-gradient(red, yellow, green);
+Colores: Desde adentro hacia afuera
+*/
+
+.div-linear-01 {
+    width: 1000px;
+    height: 200px;
+    background: linear-gradient( 90deg, #AFF3F6,#B5AFF6);
+}
+
+.div-linear-02 {
+    width: 1000px;
+    height: 200px;
+    background: linear-gradient(150deg, #F5A86F,#96D4A0,#F7EBB0);
+}
+
+.div-radial-01 {
+    width:  600px;
+    height: 600px;
+    background: radial-gradient( #EDEDC8, #D6BEA9);
+}
+
+.div-radial-02 {
+    width:  600px;
+    height: 600px;
+    background: radial-gradient(#F7D7E6, #ADCDDA, #5B8CFC);
+}

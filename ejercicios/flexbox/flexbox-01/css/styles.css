@@ -8,6 +8,8 @@
 
   /* NAV */
   .nav {
+    display: flex;
+    justify-content: space-between;
     border: 1px solid lightgray;
     padding: 10px;
   }
@@ -71,14 +73,23 @@
 }
 
 
-.section__div-1 {
+.section__container-1 {
   display: flex;
   justify-content: center;
   margin: 50px;
 }
 
 .section__div-img {
+  width: 90%;
+}
+
+.section__img {
   margin: 5px;
+  
+}
+
+.section__div-text {
+  width: 90%;
 }
 
 
