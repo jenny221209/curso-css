@@ -2,24 +2,35 @@
 .header {
     display: grid;
     justify-content: center;
-    background-image: url("../img/naturaleza.jpg");
+}
+
+.header::before {
     width: 100%;
     height: 600px;
-    background-repeat: round;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url("../img/naturaleza.jpg");
+    content: "";
+    filter: blur(1px) brightness(30%);
 }
 
 .header__img {
-
+    position: relative;
 }
 
-.header__textos {
-
+.header__div-textos {
+    position: relative;
 }
 
-h2 {
+.header__div-button {
+    position: relative;
+}
+
+h1 {
     color: white;
 }
 
-h4 {
+h3 {
     color: white;
 }
