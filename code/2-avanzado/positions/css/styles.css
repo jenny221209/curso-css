@@ -25,15 +25,13 @@
     width: 100%;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    
 }
 
 .card-1__icon {
     width: 30px;
-    margin: auto;
     position: relative;
-    top: -35px;
-    left: 180px;
+    top: 0px;
+    left: 0px;
 }
 
 .card-1__div-texto {
