@@ -22,11 +22,11 @@
 }
 
 .contenedor-ac-2 {
-display: flex;
-align-content: space-between;
-flex-flow: row wrap;
-background-color: indianred;
-height: 300px;
+    display: flex;
+    align-content: space-between;
+    flex-flow: row wrap;
+    background-color: indianred;
+    height: 300px;
 
 }
 
