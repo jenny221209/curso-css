@@ -19,37 +19,37 @@ h4 {
 .section {
     display: grid;
     grid-template-columns: repeat(6, auto);
-    gap: 5px;
+    gap: .313rem;
     justify-content: center;
 }
 
-@media screen and (max-width: 1440px) {
+@media screen and (max-width: 90rem) {
     .section {
         grid-template-columns: repeat(5,auto);
     }
 }
 
-@media screen and ( max-width: 1024px) {
+@media screen and ( max-width: 64rem) {
     .section {
         grid-template-columns: repeat(4,auto);
     }
 }
 
-@media screen and ( max-width: 768px) {
+@media screen and ( max-width: 48rem) {
     .section {
         grid-template-columns: repeat(3, auto);
     }
 }
 
-@media screen and ( max-width: 425px) {
+@media screen and ( max-width: 26.563rem) {
     .section {
         grid-template-columns: 100%;
     }
 }
 
 .section__card {
-    width: 250px;
-    height: 250px;
-    border-radius: 5px;
+    width: 15.625rem;
+    height: 15.625rem;
+    border-radius: .313rem;
     background-color: #E91E63;
 }
